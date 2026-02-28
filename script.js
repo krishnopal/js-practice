@@ -62,3 +62,11 @@ let obj1 = { name: "Shuvo" };
 let obj2 = obj1;
 obj2.name = "Rahim";
 console.log(obj1.name); // Rahim
+
+
+let c = 10;
+{
+  let c = 5;
+}
+
+console.log(c);
